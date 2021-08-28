@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Michael Kariuki`,
+    title: `Innocent Wahome`,
     description: `Professional Photographer`,
     author: `@gatsbyjs`,
   },
@@ -15,18 +15,27 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        displayName: false,
+      },
+    },
+    {
       resolve: `gatsby-source-medium`,
       options: {
         username: `@karis`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `src/assets/images/logo.png`, // This path is relative to the root of the site.
+      },
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};

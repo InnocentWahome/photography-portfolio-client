@@ -7,7 +7,7 @@ const Index = () => (
   <PageLayout>
     <SEO title="Home" />
     {/* row begins here */}
-    <div class="columns container pt-6 mr-5 mb-6">
+    <div class="columns  pt-6 mr-5 mb-6">
       {/* col 1 */}
       <div class="column">
         <figure class="image is-256x256">

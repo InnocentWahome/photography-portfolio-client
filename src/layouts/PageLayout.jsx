@@ -1,23 +1,26 @@
-import React from "react"
-import "../assets/sass/index.scss"
+import React from "react";
+import "../assets/sass/index.scss";
+import { BrowserRouter as Router } from "react-router-dom";
 
-import { Sidebar  } from "../components"
+import { Sidebar, Footer } from "../components";
 
 const PageLayout = ({ children }) => {
   return (
     <>
-    <div class="columns">
-      <div class="column is-one-fifth">
-        <div class="content is-fixed-left">
-          <Sidebar />
+      <div class="columns">
+        <Router>
+          <div class="column is-one-fifth content pr-6">
+            <Sidebar />
+          </div>
+        </Router>
+        <div class="column  pl-6">
+          {/* <Navbar /> */}
+          {children}
+          <Footer />
         </div>
       </div>
-      <div class="column is-four-fifths">
-        {children}
-      </div>
-    </div>
     </>
-  )
-}
+  );
+};
 
-export default PageLayout
+export default PageLayout;

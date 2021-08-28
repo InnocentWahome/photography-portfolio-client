@@ -1,6 +1,7 @@
 import React from "react";
 
 import { PageLayout } from "../layouts";
+import Me from "../assets/images/me.jpg"
 
 const Contact = () => (
   <PageLayout>
@@ -9,11 +10,11 @@ const Contact = () => (
         <figure class="image is-128x128">
           <img
             class="is-rounded"
-            src="https://bulma.io/images/placeholders/128x128.png"
+            src={Me}
           />
         </figure>
         <h2 class="title is-size-1 has-text-weight-bold">
-          Hello, I am Michael Kariuki
+          Hello, I am Innocent Wahome
         </h2>
         <p class="pt-3">An on location photographer based in Nairobi, Kenya.</p>
         <hr class="pr-6" />
@@ -41,28 +42,6 @@ const Contact = () => (
               <button class="button is-light" type="submit">
                 SEND
               </button>
-            </div>
-          </div>
-          <div class="level pt-6">
-            <div class="level-item has-text-centered">
-              <div>
-                <p class="heading">Facebook</p>
-              </div>
-            </div>
-            <div class="level-item has-text-centered">
-              <div>
-                <p class="heading">Pintrest</p>
-              </div>
-            </div>
-            <div class="level-item has-text-centered">
-              <div>
-                <p class="heading">Mail</p>
-              </div>
-            </div>
-            <div class="level-item has-text-centered">
-              <div>
-                <p class="heading">Behance</p>
-              </div>
             </div>
           </div>
         </div>
