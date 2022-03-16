@@ -9,7 +9,7 @@ const PageLayout = ({ children }) => {
     <>
       <div class="columns">
         <Router>
-          <div class="column is-one-fifth content pr-6">
+          <div class="column is-narrow content pr-6">
             <Sidebar />
           </div>
         </Router>

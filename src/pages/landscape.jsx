@@ -11,67 +11,67 @@ const Index = () => (
       {/* col 1 */}
       <div class="column">
         <figure class="image is-256x256">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
         <figure class="image is-256x256 pt-5">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
         <figure class="image is-2by3 mt-4">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
         <figure class="image is-256x256 pt-5">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
         <figure class="image is-square mt-5">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
       </div>
       {/* col 2 */}
       <div class="column">
         <figure class="image is-2by3">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
         <figure class="image is-256x256 pt-5">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
         <figure class="image is-256x256 pt-5">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
         <figure class="image is-2by3 mt-5">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
       </div>
       {/* col 3 */}
       <div class="column">
         <figure class="image is-256x256">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
         <figure class="image is-256x256 pt-5">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
         <figure class="image is-2by3 mt-4">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
         <figure class="image is-256x256 pt-5">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
         <figure class="image is-square mt-5">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
       </div>
       {/* col 4 */}
       <div class="column">
         <figure class="image is-2by3">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
         <figure class="image is-256x256 pt-5">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
         <figure class="image is-256x256 pt-5">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
         <figure class="image is-2by3 mt-5">
-          <img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
+          <img src="http://placeimg.com/640/480" alt="" />
         </figure>
       </div>
     </div>

@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import "./sidebar.css";
-
-// import Logo from "../assets/images/logo.png"
 
 const Sidebar = () => {
   function toggleBurgerMenu() {
@@ -41,7 +38,7 @@ const Sidebar = () => {
             <p>
               <Link
                 class="has-text-black is-hidden-mobile"
-                to="/index/"
+                to="/portraiture/"
                 onClick={toggleBurgerMenu}
               >
                 Portraiture
